@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+/* Warm-paper design tokens used by the demo UI. */
+:root {
+  --color-bg: #faf6ef; /* warm paper — primary background */
+  --color-bg-tinted: #ffffff;
+  --color-bg-elevated: #ffffff; /* card surfaces */
+  --color-warm: #18120c; /* primary text */
+  --color-warm-dim: #4a3f33; /* secondary text */
+  --color-ash: #857769; /* muted captions / labels */
+  --color-ember: #cc4d0a; /* primary accent */
+  --color-ember-bright: #ff6b1a;
+  --color-ember-glow: rgba(204, 77, 10, 0.18);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-warm);
+}

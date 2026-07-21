@@ -1,0 +1,16 @@
+# deps / build
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# env — NEVER commit keys. Copy .env.example to .env.local and fill in locally.
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+npm-debug.log*
+pnpm-debug.log*
